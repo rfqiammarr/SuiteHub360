@@ -31,8 +31,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Domain\Domain.csproj" />
-    <ProjectReference Include="..\Shared\Shared.csproj" />
+    <ProjectReference Include="..\Domain\01.Domain.csproj" />
+    <ProjectReference Include="..\Shared\02.Shared.csproj" />
   </ItemGroup>
 
 </Project>

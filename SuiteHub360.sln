@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{465C308B-ADB2-43E6-A3B6-C208ED34257C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.WebApi", "WebApi\05.WebApi.csproj", "{465C308B-ADB2-43E6-A3B6-C208ED34257C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{EB7C425C-C6E9-438B-850D-14FFCAA7E6ED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.Domain", "Domain\01.Domain.csproj", "{EB7C425C-C6E9-438B-850D-14FFCAA7E6ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{55DFC234-498D-45AF-B76A-EA06C3FBB339}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Application", "Application\03.Application.csproj", "{55DFC234-498D-45AF-B76A-EA06C3FBB339}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{89706D26-513D-49C9-9663-B895BF88B02F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Infrastructure", "Infrastructure\04.Infrastructure.csproj", "{89706D26-513D-49C9-9663-B895BF88B02F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{6C885269-27E6-4566-A310-BFD2FECD4DFB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Shared", "Shared\02.Shared.csproj", "{6C885269-27E6-4566-A310-BFD2FECD4DFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
