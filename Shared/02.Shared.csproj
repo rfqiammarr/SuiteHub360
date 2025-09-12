@@ -20,7 +20,7 @@
     <Folder Include="Common\Enums\" />
     <Folder Include="Common\Requests\" />
     <Folder Include="Services\" />
-    <Folder Include="Transactions\BookingServices\" />
+    <Folder Include="Transactions\Inventories\" />
   </ItemGroup>
 
   <ItemGroup>

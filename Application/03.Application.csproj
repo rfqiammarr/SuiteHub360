@@ -19,6 +19,11 @@
   <ItemGroup>
     <Folder Include="Abstractions\" />
     <Folder Include="Contracts\" />
+    <Folder Include="Masters\ItemUnits\" />
+    <Folder Include="Masters\Suppliers\" />
+    <Folder Include="Masters\Services\" />
+    <Folder Include="Masters\RoomTypes\" />
+    <Folder Include="Masters\Rooms\" />
     <Folder Include="Transactions\" />
     <Folder Include="UseCases\" />
   </ItemGroup>

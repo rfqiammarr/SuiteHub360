@@ -4,7 +4,7 @@ namespace RifqiAmmarR.SuiteHub360.Domain.Abstracts;
 
 public abstract class ModifiedEntity : Entity, IDeletable, IUpdatable
 {
-    public bool IsDeleted { get; set; } = false;
+    public bool IsDeleted { get; set; } = true;
     public DateTimeOffset? Modified { get; set; }
     public string? ModifiedBy { get; set; }
 }
