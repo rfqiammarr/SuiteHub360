@@ -19,7 +19,6 @@
   <ItemGroup>
     <Folder Include="Abstractions\" />
     <Folder Include="Contracts\" />
-    <Folder Include="Masters\ItemUnits\" />
     <Folder Include="Masters\Suppliers\" />
     <Folder Include="Masters\Services\" />
     <Folder Include="Masters\RoomTypes\" />

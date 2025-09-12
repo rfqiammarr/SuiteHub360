@@ -56,7 +56,7 @@ public class CreateItemCategoryCommandHandler : IRequestHandler<CreateItemCatego
         }
         catch (Exception ex)
         {
-            throw new NotImplementedException("Error while creating ItemCategory", ex);
+            throw;
         }
     }
 }

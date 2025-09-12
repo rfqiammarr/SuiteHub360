@@ -4,6 +4,6 @@ namespace RifqiAmmarR.SuiteHub360.Shared.Masters.ItemCategories.Queries;
 
 public class GetItemCategoryResponse : Response
 {
-    public int ItemCategoryId { get; set; }
-    public string ItemCategoryName { get; set; } = default!;
+    public int CategoryID { get; set; }
+    public string Name { get; set; } = default!;
 }

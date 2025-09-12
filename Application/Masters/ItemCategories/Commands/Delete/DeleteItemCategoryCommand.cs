@@ -30,12 +30,15 @@ public class DeleteItemCategoryCommandHandler : IRequestHandler<DeleteItemCatego
             }
 
             itemCategory.IsDeleted = true;
+            itemCategory.DeletedAt = DateTime.UtcNow;
+            itemCategory.DeletedBy = "Mas Ammar";
+
             await _context.SaveChangesAsync(cancellationToken);
             return Unit.Value;
         }
         catch
         {
-            throw new NotImplementedException();
+            throw;
         }
     }
 }

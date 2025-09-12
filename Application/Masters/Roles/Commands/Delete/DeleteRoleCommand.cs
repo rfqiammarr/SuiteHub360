@@ -30,6 +30,9 @@ public class DeleteRoleCommandHandler : IRequestHandler<DeleteRoleCommand>
             }
 
             role.IsDeleted = true;
+            role.DeletedAt = DateTime.UtcNow;
+            role.DeletedBy = "Mas Ammar";
+
             await _context.SaveChangesAsync(cancellationToken);
             return Unit.Value;
         }

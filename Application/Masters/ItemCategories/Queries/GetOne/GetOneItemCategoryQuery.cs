@@ -39,7 +39,7 @@ public class GetOneItemCategoryHandler : IRequestHandler<GetOneItemCategoryQuery
 
         if (query is null)
         {
-            throw new NotFoundException("Role not found");
+            throw new NotFoundException("Item Category not found");
         }
 
         var itemCategoryResult = _mapper.Map<GetItemCategoryResponse>(query);

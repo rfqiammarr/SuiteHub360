@@ -53,7 +53,7 @@ public class UpdateItemCategoryCommandHandler : IRequestHandler<UpdateItemCatego
         }
         catch (Exception ex)
         {
-            throw new NotImplementedException("Error while updating ItemCategory", ex);
+            throw;
         }
     }
 }
