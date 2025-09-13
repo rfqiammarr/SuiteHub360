@@ -17,7 +17,6 @@ public class GetOneItemUnitQuery : IRequest<ResponseResult<GetItemUnitResponse>>
 
 public class GetOneItemUnitMapper : IRequest<ResponseResult<GetItemUnitResponse>>
 {
-    public int ItemUnitId { get; set; }
 }
 
 public class GetOneItemUnitHandler : IRequestHandler<GetOneItemUnitQuery, ResponseResult<GetItemUnitResponse>>

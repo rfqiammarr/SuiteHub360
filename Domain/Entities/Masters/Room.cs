@@ -8,6 +8,7 @@ namespace RifqiAmmarR.SuiteHub360.Domain.Entities.Masters;
 public class Room : ModifiedEntity
 {
     public int RoomID { get; set; }
+    public string RoomName { get; set; } = default!;    
     public string RoomNumber { get; set; } = default!;
     public int RoomTypeID { get; set; }
     public int Floor { get; set; }
