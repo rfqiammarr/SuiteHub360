@@ -47,7 +47,7 @@ public class RoomController : ApiControllerBase
     [ProducesResponseType(StatusCodes.Status204NoContent)]
     [ProducesResponseType(StatusCodes.Status404NotFound)]
     [ProducesResponseType(StatusCodes.Status409Conflict)]
-    public async Task<ActionResult<RoomResponse>> UpdateRoom([FromRoute] int roomId, [FromBody] RoomRequest command)
+    public async Task<ActionResult<RoomResponse>> UpdateRoom([FromRoute] int roomId, [FromBody] UpdateRoomCommand command)
     {
 
         if (roomId != command.RoomId)

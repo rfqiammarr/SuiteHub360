@@ -8,7 +8,6 @@ namespace RifqiAmmarR.SuiteHub360.Application.Masters.Rooms.Commands.Update;
 
 public class UpdateRoomCommand : RoomRequest, IRequest<RoomResponse>
 {
-    public int RoomId { get; set; }
 }
 
 public class UpdateRoomCommandValidator : AbstractValidator<UpdateRoomCommand>

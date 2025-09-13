@@ -34,6 +34,7 @@ public class GetOneRoomHandler : IRequestHandler<GetOneRoomQuery, ResponseResult
     {
         var query = await _context.Rooms
             .AsNoTracking()
+            .Include(x => x.RoomType)
             .Where(x => x.RoomID == request.RoomId && x.IsDeleted != true)
             .FirstOrDefaultAsync(cancellationToken);
 
