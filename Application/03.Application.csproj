@@ -21,7 +21,6 @@
     <Folder Include="Contracts\" />
     <Folder Include="Masters\Suppliers\" />
     <Folder Include="Masters\Services\" />
-    <Folder Include="Masters\RoomTypes\" />
     <Folder Include="Transactions\" />
     <Folder Include="UseCases\" />
   </ItemGroup>

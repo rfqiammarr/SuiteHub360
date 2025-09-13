@@ -2,7 +2,7 @@
 
 namespace RifqiAmmarR.SuiteHub360.Domain.Entities.Masters;
 
-public class RoomTypes : ModifiedEntity
+public class RoomType : ModifiedEntity
 {
     public int RoomTypeID { get; set; }
     public string Name { get; set; } = default!;

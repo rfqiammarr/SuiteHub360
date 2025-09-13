@@ -28,7 +28,7 @@ public interface ISuiteHub360DbContext
     public DbSet<ItemUnit> ItemUnits { get; set; }
     public DbSet<Role> Roles { get; set; }
     public DbSet<Room> Rooms { get; set; }
-    public DbSet<RoomTypes> RoomTypes { get; set; }
+    public DbSet<RoomType> RoomTypes { get; set; }
     public DbSet<Service> Services { get; set; }
     public DbSet<Supplier> Suppliers { get; set; }
     #endregion

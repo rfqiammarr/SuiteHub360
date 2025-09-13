@@ -9,7 +9,7 @@ public static class ApiEndPoint
             public const string Segment = $"{nameof(V1)}/{nameof(RoomTypes)}";
             public static class RouteTemplateFor
             {
-                public const string RoomTypeId = "{RoomTypeId}";
+                public const string RoomTypeId = "{roomTypeId}";
             }
         }
     }

@@ -1,17 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using RifqiAmmarR.SuiteHub360.Application.Masters.Roles.Commands.Update;
 using RifqiAmmarR.SuiteHub360.Application.Masters.Rooms.Commands.Create;
 using RifqiAmmarR.SuiteHub360.Application.Masters.Rooms.Commands.Delete;
 using RifqiAmmarR.SuiteHub360.Application.Masters.Rooms.Commands.Update;
 using RifqiAmmarR.SuiteHub360.Application.Masters.Rooms.Queries.GetMany;
 using RifqiAmmarR.SuiteHub360.Application.Masters.Rooms.Queries.GetOne;
-using RifqiAmmarR.SuiteHub360.Domain.Entities.Masters;
 using RifqiAmmarR.SuiteHub360.Shared.Common.Constants;
 using RifqiAmmarR.SuiteHub360.Shared.Common.Responses;
 using RifqiAmmarR.SuiteHub360.Shared.Masters.Rooms.Commands;
 using RifqiAmmarR.SuiteHub360.Shared.Masters.Rooms.Constants;
 using RifqiAmmarR.SuiteHub360.Shared.Masters.Rooms.Queries;
-using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 namespace RifqiAmmarR.SuiteHub360.WebApi.Areas.V1.Controllers.Masters;
 

@@ -4,6 +4,9 @@ namespace RifqiAmmarR.SuiteHub360.Shared.Masters.RoomTypes.Queries;
 
 public class GetRoomTypeResponse : Response
 {
-    public int RoomTypeId { get; set; }
-    public string RoomTypeName { get; set; } = default!;
+    public int RoomTypeID { get; set; }
+    public string Name { get; set; } = default!;
+    public string Description { get; set; } = default!;
+    public int Capacity { get; set; }
+    public decimal BasePrice { get; set; }
 }

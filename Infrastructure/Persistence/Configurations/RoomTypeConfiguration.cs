@@ -5,9 +5,9 @@ using RifqiAmmarR.SuiteHub360.Domain.Entities.Masters;
 
 namespace RifqiAmmarR.SuiteHub360.Infrastructure.Persistence.Configurations;
 
-public class RoomTypesConfiguration : IEntityTypeConfiguration<RoomTypes>
+public class RoomTypesConfiguration : IEntityTypeConfiguration<RoomType>
 {
-    public void Configure(EntityTypeBuilder<RoomTypes> builder)
+    public void Configure(EntityTypeBuilder<RoomType> builder)
     {
         builder.ToTable($"{nameof(ISuiteHub360DbContext.RoomTypes)}");
 

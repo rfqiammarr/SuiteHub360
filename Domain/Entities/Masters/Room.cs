@@ -18,7 +18,7 @@ public class Room : ModifiedEntity
     public DateTime UpdatedAt { get; set; }
     public bool IsBooking { get; set; } = false;
 
-    public RoomTypes RoomType { get; set; } = default!;
+    public RoomType RoomType { get; set; } = default!;
     public ICollection<RoomFacility> FacilityRooms { get; set; } = default!;
     public ICollection<Booking> Bookings { get; set; } = default!;
     public ICollection<ItemUsage> ItemUsages { get; set; } = default!;
